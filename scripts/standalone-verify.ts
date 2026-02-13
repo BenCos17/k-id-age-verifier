@@ -356,7 +356,7 @@ async function verify(qrCodeUrlStr: string) {
 			api_key: null,
 			api_secret: null,
 			token,
-			longURL: originalUrl,
+			longURL: null,
 			userAgent: userAgent
 		})
 	});
